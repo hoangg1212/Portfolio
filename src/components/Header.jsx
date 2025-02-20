@@ -36,7 +36,7 @@ const Header = () => {
         <>
             {/* Header */}
             <header>
-                <div className='max-w-screen-2xl container w-full mx-auto px-4 md:px-20 h-16 fixed top-0 left-0 right-0 z-50 bg-white shadow-md'>
+                <div className=' w-full mx-auto px-4 md:px-20 h-16 fixed top-0 left-0 right-0 z-50 bg-white shadow-md'>
                     <div className='flex justify-between items-center h-16'>
                         <div className='flex space-x-2'>
                             <img src={avatar} alt="avatar" className='w-12 h-12 rounded-full' />

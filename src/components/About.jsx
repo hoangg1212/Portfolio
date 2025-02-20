@@ -62,6 +62,160 @@ const About = () => {
                 </span>
                 <br />
             </section>
+
+
+            <section className='flex max-w-screen-2xl container w-full mx-auto px-4 md:px-20 my-20'>
+            <h2 className="text-3xl font-bold mb-5 dark:text-neutral-200">
+                        Experience
+                    </h2>
+                <div className="flex flex-wrap gap-y-2 items-center justify-between">
+                    
+                    <div className="px-5 py-10">
+                        {/* Experience item*/}
+                        <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                            <div className="relative flex flex-col justify-start pl-12">
+                                <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
+                                    <img src="" alt="" className="w-8 h-8" />
+                                </div>
+                                <p className="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest">
+                                    {" "}
+                                    July 2021 · Present{" "}
+                                </p>
+                                <h3 className="my-1 text-lg font-bold dark:text-neutral-100">
+                                    Lead Front-end Developer
+                                </h3>
+                                <p className="mb-1 text-sm font-medium dark:text-neutral-300">
+                                    AgeCode Co. Ltd
+                                </p>
+                                <div className="ml-4 mb-1 text-sm font-light text-neutral-600 dark:text-neutral-400 space-y-0.5">
+                                    <p>
+                                        Led and contributed to over 20 projects in 3 years,
+                                        ranging from small to large scale applications.
+                                    </p>
+                                    <p>
+                                        Improved overall code quality through regular code reviews
+                                        and implementation of best practices.
+                                    </p>
+                                    <p>
+                                        Managed and mentored a team of developers, fostering a
+                                        collaborative and productive work environment.
+                                    </p>
+                                    <p>
+                                        Reduced project development time by approximately 30%
+                                        through implementation of efficient workflows and
+                                        automation tools.
+                                    </p>
+                                    <p className="mb-1 text-sm">
+                                        <b className="font-medium dark:text-neutral-300">
+                                            Technologies:
+                                        </b>
+                                        <span className="font-light text-neutral-600 dark:text-neutral-400">
+                                            {" "}
+                                            React, Next.js, Vue.js, Nuxt, JavaScript, TypeScript,
+                                            Node.js, Confluence, GitHub Copilot, GitHub Actions,
+                                            Code Review GPT{" "}
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                            <div className="relative flex flex-col justify-start pl-12">
+                                <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
+                                    <img src="" alt="" className="w-8 h-8" />
+                                </div>
+                                <p className="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest">
+                                    {" "}
+                                    July 2021 · Present{" "}
+                                </p>
+                                <h3 className="my-1 text-lg font-bold dark:text-neutral-100">
+                                    Lead Front-end Developer
+                                </h3>
+                                <p className="mb-1 text-sm font-medium dark:text-neutral-300">
+                                    AgeCode Co. Ltd
+                                </p>
+                                <div className="ml-4 mb-1 text-sm font-light text-neutral-600 dark:text-neutral-400 space-y-0.5">
+                                    <p>
+                                        Led and contributed to over 20 projects in 3 years,
+                                        ranging from small to large scale applications.
+                                    </p>
+                                    <p>
+                                        Improved overall code quality through regular code reviews
+                                        and implementation of best practices.
+                                    </p>
+                                    <p>
+                                        Managed and mentored a team of developers, fostering a
+                                        collaborative and productive work environment.
+                                    </p>
+                                    <p>
+                                        Reduced project development time by approximately 30%
+                                        through implementation of efficient workflows and
+                                        automation tools.
+                                    </p>
+                                    <p className="mb-1 text-sm">
+                                        <b className="font-medium dark:text-neutral-300">
+                                            Technologies:
+                                        </b>
+                                        <span className="font-light text-neutral-600 dark:text-neutral-400">
+                                            {" "}
+                                            React, Next.js, Vue.js, Nuxt, JavaScript, TypeScript,
+                                            Node.js, Confluence, GitHub Copilot, GitHub Actions,
+                                            Code Review GPT{" "}
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+                            <div className="relative flex flex-col justify-start pl-12">
+                                <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
+                                    <img src="" alt="" className="w-8 h-8" />
+                                </div>
+                                <p className="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest">
+                                    {" "}
+                                    July 2021 · Present{" "}
+                                </p>
+                                <h3 className="my-1 text-lg font-bold dark:text-neutral-100">
+                                    Lead Front-end Developer
+                                </h3>
+                                <p className="mb-1 text-sm font-medium dark:text-neutral-300">
+                                    AgeCode Co. Ltd
+                                </p>
+                                <div className="ml-4 mb-1 text-sm font-light text-neutral-600 dark:text-neutral-400 space-y-0.5">
+                                    <p>
+                                        Led and contributed to over 20 projects in 3 years,
+                                        ranging from small to large scale applications.
+                                    </p>
+                                    <p>
+                                        Improved overall code quality through regular code reviews
+                                        and implementation of best practices.
+                                    </p>
+                                    <p>
+                                        Managed and mentored a team of developers, fostering a
+                                        collaborative and productive work environment.
+                                    </p>
+                                    <p>
+                                        Reduced project development time by approximately 30%
+                                        through implementation of efficient workflows and
+                                        automation tools.
+                                    </p>
+                                    <p className="mb-1 text-sm">
+                                        <b className="font-medium dark:text-neutral-300">
+                                            Technologies:
+                                        </b>
+                                        <span className="font-light text-neutral-600 dark:text-neutral-400">
+                                            {" "}
+                                            React, Next.js, Vue.js, Nuxt, JavaScript, TypeScript,
+                                            Node.js, Confluence, GitHub Copilot, GitHub Actions,
+                                            Code Review GPT{" "}
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
