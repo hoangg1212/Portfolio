@@ -59,9 +59,7 @@ const Experiance = () => {
         <>
             <section name='Kinh nghiệm' className='max-w-screen-2xl container w-full mx-auto px-4 md:px-20 my-16'>
                 <div>
-                    <h1 className='text-3xl font-bold mb-5'>
-                        Kinh nghiệm
-                    </h1>
+                    <h1 className='text-3xl font-bold mb-5'> Kinh Nghiệm  </h1>
                     <p>
                         Trong quá trình học tập và thực hiện các dự án thực tế, tôi đã tích lũy kinh nghiệm quý giá với nhiều công nghệ hiện đại.
                         Những trải nghiệm này không chỉ giúp tôi rèn luyện kỹ năng chuyên môn mà còn nâng cao khả năng giải quyết vấn đề và làm việc nhóm.
