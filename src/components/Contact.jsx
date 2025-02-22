@@ -3,6 +3,8 @@ import React from 'react'
 import { useForm } from "react-hook-form";
 import toast from 'react-hot-toast';
 
+import { FaLocationArrow } from "react-icons/fa";
+
 const Contact = () => {
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -27,7 +29,7 @@ const Contact = () => {
 
     return (
         <>
-            <section name='Liên hệ' className='max-w-screen-2xl container w-full mx-auto px-4 md:px-20 my-16'>
+            <section name='Liên hệ' className='pt-8'>
                 <h1 className='text-3xl font-bold mb-5'>Liên hệ với tôi</h1>
                 <span>Vui lòng điền vào form dưới đây để liên hệ với tôi nhé</span>
                 <div className='flex flex-col items-center justify-center mt-5'>
@@ -73,7 +75,7 @@ const Contact = () => {
 
                         {/* Nút Gửi */}
                         <button type='submit' className='bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300 cursor-pointer'>
-                            Gửi
+                        <FaLocationArrow />
                         </button>
                     </form>
                 </div>

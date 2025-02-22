@@ -1,21 +1,22 @@
 import React from 'react'
 
-import toeic from '../assets/images/toeic.png'
-
+import duan01 from '../assets/images/DuAn01.png'
+import duan02 from '../assets/images/DuAn02.png'
+import duan03 from '../assets/images/DuAn03.png'
 
 const PortFolio = () => {
 
   return (
     <>
-      <section name='Dự án' className='flex flex-col max-w-screen-2xl container w-full mx-auto px-4 md:px-20 mt-10'>
+      <section name='Dự án' className='pt-8'>
         <h2 className='text-3xl font-bold'> Dự Án </h2>
-        <div className="flex flex-wrap gap-y-2 items-center justify-between">
-          <div className="px-5 py-10">
+        <div className="flex flex-wrap gap-4 items-center">
+          <div className="w-full px-5 py-10">
             {/* Dự án 1 */}
             <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src={toeic} alt="" className="w-8 h-8" />
+                  <img src={duan01} alt="" className="w-14 h-14 rounded-full" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   23/11/2024 - 07/01/2025
@@ -87,7 +88,7 @@ const PortFolio = () => {
             <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src="" alt="" className="w-8 h-8" />
+                  <img src={duan02} alt="" className="w-14 h-14 rounded-full" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   21/05/2024 - 30/07/2024
@@ -134,7 +135,7 @@ const PortFolio = () => {
                   </p>
                   <p>
                     <b className="font-bold">GitHub:</b>
-                    <a href="https://github.com/hoangg1212/Confectionery_Store-.git" target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <a href="https://github.com/hoangg1212/Confectionery_Store-.git" target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline whitespace-normal break-words">
                       {"  "} https://github.com/hoangg1212/Confectionery_Store-.git
                     </a>
                   </p>
@@ -145,7 +146,7 @@ const PortFolio = () => {
             <div className="border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src="" alt="" className="w-8 h-8" />
+                  <img src={duan03} alt="" className="w-14 h-14 rounded-full" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   15/03/2024 - 12/05/2024
@@ -191,7 +192,7 @@ const PortFolio = () => {
                   </p>
                   <p>
                     <b className="font-bold">GitHub:</b>
-                    <a href="https://github.com/hoangg1212/Cake_Shop.git" target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline">
+                    <a href="https://github.com/hoangg1212/Cake_Shop.git" target='_blank' className="text-blue-600 dark:text-blue-400 hover:underline whitespace-normal break-words">
                       {"  "} https://github.com/hoangg1212/Cake_Shop.git
                     </a>
                   </p>

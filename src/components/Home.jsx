@@ -12,7 +12,7 @@ import avatar from '../assets/images/avt.jpg'
 const Home = () => {
     return (
         <>
-            <section name='Trang chủ' className='max-w-screen-2xl container w-full mx-auto px-4 md:px-20 my-20'>
+            <section name='Trang chủ'>
                 <div className='flex flex-col md:flex-row'>
                     {/* Left */}
                     <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
@@ -29,12 +29,12 @@ const Home = () => {
                         </div>
                         <br />
                         <p className='text=sm md:text-md text-justify'>
-                            HII
+                        "Success is not the key to happiness. Happiness is the key to success." — Albert Schweitzer
                         </p>
                         <br />
                         {/* Media Icons */}
                         <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>
-                            <div className='space-y-2'>
+                            <div className='space-y-2 text-center md:text-left'>
                                 <span>Available on</span>
                                 <ul className='flex space-x-5'>
                                     <li>
@@ -59,7 +59,7 @@ const Home = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='space-y-2'>
+                            <div className='space-y-2 text-center md:text-left'>
                                 <span>Currently working on</span>
                                 <ul className='flex space-x-5'>
                                     <FaReact className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full boder-[2px]' />
@@ -79,7 +79,7 @@ const Home = () => {
                     </div>
                 </div>
             </section >
-            <hr class="border-gray-300 border-opacity-50" />
+            <hr class="border-gray-300 border-opacity-50 mt-5" />
         </>
     )
 }

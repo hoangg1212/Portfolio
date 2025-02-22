@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <>
-            <section name='Giới thiệu' className='max-w-screen-2xl container w-full mx-auto px-4 md:px-20 my-20'>
+            <section name='Giới thiệu' className='pt-8'>
                 <h1 className='text-3xl font-bold mb-5'> Giới Thiệu  </h1>
                 <p className='text-justify'>
                     Chào bạn, tôi là Lê Huy Hoàng, một sinh viên năm cuối chuyên ngành Kỹ thuật phần mềm tại Trường Đại học Nguyễn Tất Thành.
@@ -16,7 +16,7 @@ const About = () => {
                     Trình độ học vấn
                 </h1>
                 <span className='text-justify'>
-                    - Chuyên ngành: Kỹ thuật phần mềm, Trường Đại học Nguyễn Tất Thành
+                    - Chuyên ngành: Kỹ thuật phần mềm của Trường Đại học Nguyễn Tất Thành
                 </span>
                 <br />
                 <h1 className='text-green-600 font-bold text-xl'>

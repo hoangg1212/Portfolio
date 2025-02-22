@@ -11,22 +11,27 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 
 import { Toaster } from 'react-hot-toast';
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
-      <main>
-        <Home />
-        <About/>
-        <PortFolio/>
-        <Experiance/>
-        <Contact/>
-      </main>
-      <Footer/>
-      <Toaster />
+      <div className='max-w-screen-2xl w-full mx-auto px-4 md:px-20 my-20'>
+        <Header />
+        <main className='container'>
+          <Home />
+          <About />
+          <PortFolio />
+          <Experiance />
+          <Contact />
+        </main>
+
+        <Toaster />
+      </div>
+      <Footer />
+      <ScrollToTopButton/>
     </>
   )
 }
