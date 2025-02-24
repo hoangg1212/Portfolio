@@ -1,11 +1,265 @@
-
 {
-    "nav": {
-      "home": "Home",
-      "about": "About",
-      "projects": "Projects",
-      "experience": "Experience",
-      "contact": "Contact"
+  "about": {
+    "awards": {
+      "network_competition": "Encouragement Prize in the 'Network System Implementation' competition held on April 12, 2024",
+      "software_competition": "Encouragement Prize in the 'Software Engineering' competition held on May 17, 2024",
+      "title": "Achievements & Awards"
+    },
+    "desire": {
+      "details": "I wish to have the opportunity to join a dynamic working environment, where I can apply programming skills, learn from good colleagues and together create quality technology products, serving the development of the company and the community.",
+      "title": "Desire"
+    },
+    "education": {
+      "details": "Major: Software Engineering of Nguyen Tat Thanh University",
+      "title": "Education level "
+    },
+    "experience": {
+      "projects": {
+        "ecommerce": "E-commerce website using ReactJS and MongoDB, with user-friendly interface, flexible product search and filtering capabilities, integrated shopping cart and payment.",
+        "english_quiz": "English quiz website using ReactJS and SQL Server, helping users take English tests with a diverse question system and test result tracking feature."
+      },
+      "summary": "During the process of studying and implementing personal projects, I have applied modern technologies to develop projects such as:",
+      "title": "Professional experience",
+      "value": "These projects not only help me develop programming skills but also practice the ability to work with databases and handle user requests."
+    },
+    "skills": {
+      "backend": "Familiar with Node.js, ExpressJS in backend development",
+      "database": "Experience working with NoSQL MongoDB and SQL databases",
+      "frontend": "Experience developing user interfaces with ReactJS, VueJS",
+      "learning": "A spirit of continuous learning and a passion for challenges with new technologies.",
+      "programming": "Proficient in programming languages: HTML, CSS, JavaScript, Python",
+      "soft_skills": "Teamwork skills, problem solving, and effective time management",
+      "title": "Skills & Expertise"
+    },
+    "summary": {
+      "details": "Hello, I am Le Huy Hoang, a senior student majoring in Software Engineering at Nguyen Tat Thanh University. With passion and effort to learn, I always seek to develop myself in the field information technology. I have accumulated solid skills and practical experience, with the goal of becoming a Frontend Developer, contributing to the development of the company and constantly improving personal skills.",
+      "title": "Introduction"
+    }
+  },
+  "contact": {
+    "description": "Please fill out the form below to contact me. I will respond as soon as possible!",
+    "form": {
+      "title": "Send your message",
+      "fields": {
+        "name": {
+          "error": "Please fill in all information!",
+          "label": "Full name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "error": "Please fill in all information!",
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "message": {
+          "error": "Please fill in all information!",
+          "label": "Message content",
+          "placeholder": "Please enter message content"
+        }
+      },
+      "submit": {
+        "error": "Send failed! Please try again later.",
+        "success": "Sent successfully!",
+        "text": "Sent"
+      }
+    },
+    "name": "Contact"
+  },
+  "experience": {
+    "description": "During my studies and practical projects, I have accumulated valuable experience with many modern technologies. These experiences not only help me practice my professional skills but also improve my problem-solving and teamwork skills.",
+    "name": "Experience"
+  },
+  "home": {
+    "avatarAlt": "Avatar",
+    "hello": "Hello, I am",
+    "network": "Social network",
+    "seo_title": "Portfolio",
+    "technology": "Technology used",
+    "title": "'Success is not the key to happiness. Happiness is the key to success.'— Albert Schweitzer",
+    "welcome": "Welcome to my Profile"
+  },
+  "myProfilo": {
+    "last_name": "Le Huy",
+    "name": "Hoang"
+  },
+  "nav": {
+    "about": "Introduction",
+    "contact": "Contact",
+    "experience": "Experience",
+    "home": "Home",
+    "projects": "Projects"
+  },
+  "projects": {
+    "category": "Project",
+    "cake_shop_website": {
+      "project_name": "Cake Shop Website",
+      "duration": "15/03/2024 - 12/05/2024",
+      "project_type": "Personal project",
+      "overview": {
+        "title": "Description",
+        "content": "This website is developed as a personal project, aiming to provide a convenient and easy online shopping platform for both administrators (Admin) and users (customers). This project offers flexibility in management and use, from maintaining and developing the system to creating a smooth experience for users."
+      },
+      "key_features": {
+        "title": "Main functions",
+        "features_list": [
+          {
+            "feature_name": "User authorization",
+            "feature_description": "The system clearly assigns authorization between Admin and customers. Admin has the right to control the entire system, including managing users, products, and orders. Meanwhile, customers can access, search, and purchase products online."
+          },
+          {
+            "feature_name": "Product search and detail viewing feature",
+            "feature_description": "The website supports a powerful search feature, allowing customers to easily search for products by name, category, or feature. In addition, users can view detailed information about each product, including description, price, and purchasing options."
+          },
+          {
+            "feature_name": "Order and Payment Management",
+            "feature_description": "Customers can make payments quickly and securely through various methods. Admins have the right to approve and manage orders, and track order status from the time of placing until successful delivery."
+          },
+          {
+            "feature_name": "System Management for Admin",
+            "feature_description": "Admins have full control over the system, including adding, editing, deleting products, tracking and processing orders, as well as managing users. In addition, Admins can monitor statistics and reports to make appropriate decisions in system development."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Technology used",
+        "technologies": [
+          "C#",
+          "ASP.NET",
+          "MVC",
+          "SQL Server",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": "https://youtu.be/yNqN0FfautM"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/hoangg1212/Cake_Shop.git"
+        }
+      ]
+    },
+    "confectionery_store_website": {
+      "project_name": "Confectionery Store Website",
+      "duration": "21/05/2024 - 30/07/2024",
+      "project_type": "Personal project",
+      "overview": {
+        "title": "Description",
+        "content": "This website is developed as a personal project, aiming to provide a convenient and easy online shopping platform for both administrators (Admin) and users (customers). This project offers flexibility in management and use, from maintaining and developing the system to creating a smooth experience for users."
+      },
+      "key_features": {
+        "title": "Main functions",
+        "features_list": [
+          {
+            "feature_name": "Admin and customer authorization",
+            "feature_description": "A clear and flexible authorization system helps distinguish the functions of Admin and customers."
+          },
+          {
+            "feature_name": "Chatbot",
+            "feature_description": "Chatbot supports customers in answering questions and guiding users during the shopping process."
+          },
+          {
+            "feature_name": "Search, view details, order, pay",
+            "feature_description": "The website provides features for searching, viewing product details, ordering and easy payment."
+          },
+          {
+            "feature_name": "Admin system management",
+            "feature_description": "Admin can manage products, orders, users and track statistical reports."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Technologies used",
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Express",
+          "MongoDB",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=-h7WUv1T3KM"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/hoangg1212/Confectionery_Store-.git"
+        }
+      ]
+    },
+    "toeic_test_support_website": {
+      "project_name": "TOEIC Test Support Website",
+      "duration": "23/11/2024 - 07/01/2025",
+      "project_type": "Personal project",
+      "overview": {
+        "title": "Description",
+        "content": "Website supporting TOEIC test preparation with mock tests, points to redeem gifts and knowledge exchange space."
+      },
+      "key_features": {
+        "title": "Main functions",
+        "features_list": [
+          {
+            "feature_name": "User authorization",
+            "feature_description": "A clear authorization system between user groups (Admin, Lecturer, Student), helping to manage and allocate access rights reasonably."
+          },
+          {
+            "feature_name": "Chatbot",
+            "feature_description": "Integrated smart Chatbot helps users answer frequently asked questions, provide information about exams and study materials."
+          },
+          {
+            "feature_name": "Register, login, forgot password",
+            "feature_description": "The registration and login features help users easily create accounts and access the system."
+          },
+          {
+            "feature_name": "Search and view exam details",
+            "feature_description": "Users can search for exams by topic, difficulty and exam time, helping them plan and prepare best."
+          },
+          {
+            "feature_name": "Take exams, accumulate points and redeem gifts",
+            "feature_description": "Users can accumulate points and receive attractive gifts when achieving high achievements."
+          },
+          {
+            "feature_name": "Exchange forum",
+            "feature_description": "The forum facilitates users to exchange, discuss and share experiences about exams and learning strategies."
+          },
+          {
+            "feature_name": "Exam management",
+            "feature_description": "Admin can create, edit and delete exams to ensure the content is always suitable for learning requirements."
+          },
+          {
+            "feature_name": "Gift management",
+            "feature_description": "The system helps Admin track students' scores and distribute gifts to encourage their participation."
+          },
+          {
+            "feature_name": "System management for Admin",
+            "feature_description": "Admin has the right to manage the entire system, including users, exams, gifts and other resources."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Technology used",
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Express",
+          "MySQL",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": ""
+        },
+        {
+          "platform": "GitHub",
+          "url": ""
+        }
+      ]
     }
   }
-  
+}

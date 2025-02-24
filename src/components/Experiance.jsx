@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 import html from '../assets/images/html.jpg'
 import css from '../assets/images/css.jpg'
@@ -18,7 +19,7 @@ import java from '../assets/images/java.png'
 
 
 const Experiance = () => {
-
+    const { t } = useTranslation();
     const cardItems = [
         {
             id: 1,
@@ -84,12 +85,11 @@ const Experiance = () => {
 
     return (
         <>
-            <section name='Kinh nghiệm' className='pt-8'>
+            <section name='experience' className='pt-8'>
                 <div>
-                    <h1 className='text-3xl font-bold mb-5'> Kinh Nghiệm  </h1>
+                    <h1 className='text-3xl font-bold mb-5'> {t('experience.name')}  </h1>
                     <p>
-                        Trong quá trình học tập và thực hiện các dự án thực tế, tôi đã tích lũy kinh nghiệm quý giá với nhiều công nghệ hiện đại.
-                        Những trải nghiệm này không chỉ giúp tôi rèn luyện kỹ năng chuyên môn mà còn nâng cao khả năng giải quyết vấn đề và làm việc nhóm.
+                    {t('experience.description')}
                     </p>
                     <div className='grid grid-cols-2 md:grid-cols-5 gap-7 my-3'>
                         {

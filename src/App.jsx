@@ -10,6 +10,8 @@ import Experiance from './components/Experiance'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 
+import './i18n';
+
 import { Toaster } from 'react-hot-toast';
 import ScrollToTopButton from './components/ScrollToTopButton'
 

@@ -1,9 +1,265 @@
 {
-    "nav": {
-      "home": "Trang chủ",
-      "about": "Giới thiệu",
-      "projects": "Dự án",
-      "experience": "Kinh nghiệm",
-      "contact": "Liên hệ"
+  "about": {
+    "awards": {
+      "network_competition": "Giải Khuyến khích trong cuộc thi 'Triển khai hệ thống mạng' tổ chức ngày 12/04/2024",
+      "software_competition": "Giải Khuyến khích trong cuộc thi 'Kỹ thuật phần mềm' tổ chức ngày 17/05/2024",
+      "title": "Thành tựu & Giải thưởng"
+    },
+    "desire": {
+      "details": "Tôi mong muốn có cơ hội được gia nhập một môi trường làm việc năng động, nơi tôi có thể áp dụng kỹ năng lập trình, học hỏi từ những người đồng nghiệp giỏi và cùng nhau tạo ra các sản phẩm công nghệ chất lượng, phục vụ cho sự phát triển của công ty và cộng đồng.",
+      "title": "Mong muốn"
+    },
+    "education": {
+      "details": "Chuyên ngành: Kỹ thuật phần mềm của Trường Đại học Nguyễn Tất Thành",
+      "title": "Trình độ học vấn"
+    },
+    "experience": {
+      "projects": {
+        "ecommerce": "Web thương mại điện tử sử dụng ReactJS và MongoDB, với giao diện người dùng thân thiện, khả năng tìm kiếm và lọc sản phẩm linh hoạt, tích hợp giỏ hàng và thanh toán.",
+        "english_quiz": "Web trắc nghiệm tiếng Anh sử dụng ReactJS và SQL Server, giúp người dùng thực hiện các bài kiểm tra tiếng Anh với hệ thống câu hỏi đa dạng và tính năng theo dõi kết quả thi."
+      },
+      "summary": "Trong quá trình học tập và thực hiện các dự án cá nhân, tôi đã áp dụng các công nghệ hiện đại để phát triển các dự án như:",
+      "title": "Kinh nghiệm chuyên môn",
+      "value": "Những dự án này không chỉ giúp tôi phát triển kỹ năng lập trình mà còn rèn luyện khả năng làm việc với cơ sở dữ liệu và xử lý các yêu cầu của người dùng."
+    },
+    "skills": {
+      "backend": "Quen thuộc với Node.js, ExpressJS trong phát triển backend",
+      "database": "Kinh nghiệm làm việc với cơ sở dữ liệu NoSQL MongoDB và SQL",
+      "frontend": "Có kinh nghiệm phát triển giao diện người dùng với ReactJS, VueJS",
+      "learning": "Tinh thần học hỏi không ngừng và đam mê thử thách với công nghệ mới.",
+      "programming": "Thành thạo các ngôn ngữ lập trình: HTML, CSS, JavaScript, Python",
+      "soft_skills": "Kỹ năng làm việc nhóm, giải quyết vấn đề, và quản lý thời gian hiệu quả",
+      "title": "Kỹ năng & Chuyên môn"
+    },
+    "summary": {
+      "details": "Chào bạn, tôi là Lê Huy Hoàng, một sinh viên năm cuối chuyên ngành Kỹ thuật phần mềm tại Trường Đại học Nguyễn Tất Thành. Với niềm đam mê và nỗ lực học hỏi, tôi luôn tìm cách phát triển bản thân trong lĩnh vực công nghệ thông tin. Tôi đã tích lũy cho mình những kỹ năng vững vàng và kinh nghiệm thực tế, với mục tiêu trở thành một Frontend Developer, đóng góp vào sự phát triển của công ty và không ngừng nâng cao kỹ năng cá nhân.",
+      "title": "Giới Thiệu"
+    }
+  },
+  "contact": {
+    "description": "Vui lòng điền vào form dưới đây để liên hệ với tôi. Tôi sẽ phản hồi trong thời gian sớm nhất!",
+    "form": {
+      "title": "Gửi tin nhắn của bạn",
+      "fields": {
+        "name": {
+          "error": "Vui lòng điền đầy đủ thông tin!",
+          "label": "Họ tên",
+          "placeholder": "Nhập họ tên của bạn"
+        },
+        "email": {
+          "error": "Vui lòng điền đầy đủ thông tin!",
+          "label": "Email",
+          "placeholder": "Nhập email của bạn"
+        },
+        "message": {
+          "error": "Vui lòng điền đầy đủ thông tin!",
+          "label": "Nội dung tin nhắn",
+          "placeholder": "Vui lòng nhập nội dung tin nhắn"
+        }
+      },
+      "submit": {
+        "error": "Gửi thất bại! Vui lòng thử lại sau.",
+        "success": "Gửi thành công!",
+        "text": "Gửi"
+      }
+    },
+    "name": "Liên Hệ"
+  },
+  "experience": {
+    "description": "Trong quá trình học tập và thực hiện các dự án thực tế, tôi đã tích lũy kinh nghiệm quý giá với nhiều công nghệ hiện đại. Những trải nghiệm này không chỉ giúp tôi rèn luyện kỹ năng chuyên môn mà còn nâng cao khả năng giải quyết vấn đề và làm việc nhóm.",
+    "name": "Kinh Nghiệm"
+  },
+  "home": {
+    "avatarAlt": "Hình đại diện",
+    "hello": "Xin chào, tôi là",
+    "network": "Mạng xã hội",
+    "seo_title": "Portfolio",
+    "technology": "Công nghệ sử dụng",
+    "title": "'Success is not the key to happiness. Happiness is the key to success.'— Albert Schweitzer",
+    "welcome": "Chào mừng bạn đến với Profile của tôi"
+  },
+  "myProfilo": {
+    "last_name": "Lê Huy",
+    "name": "Hoàng"
+  },
+  "nav": {
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "experience": "Kinh nghiệm",
+    "home": "Trang chủ",
+    "projects": "Dự án"
+  },
+  "projects": {
+    "category": "Dự Án",
+    "cake_shop_website": {
+      "project_name": "Cake Shop Website",
+      "duration": "15/03/2024 - 12/05/2024",
+      "project_type": "Dự án cá nhân",
+      "overview": {
+        "title": "Mô tả",
+        "content": "Website này được phát triển như một dự án cá nhân, nhằm cung cấp một nền tảng mua sắm trực tuyến tiện lợi và dễ dàng cho cả người quản trị (Admin) và người dùng (khách hàng). Dự án này mang lại sự linh hoạt trong việc quản lý và sử dụng, từ việc duy trì và phát triển hệ thống đến việc tạo ra trải nghiệm mượt mà cho người dùng."
+      },
+      "key_features": {
+        "title": "Các chức năng chính",
+        "features_list": [
+          {
+            "feature_name": "Phân quyền người dùng",
+            "feature_description": "Hệ thống phân quyền rõ ràng giữa Admin và khách hàng. Admin có quyền kiểm soát toàn bộ hệ thống, bao gồm việc quản lý người dùng, sản phẩm, đơn hàng. Trong khi đó, khách hàng có thể truy cập, tìm kiếm và mua sản phẩm trực tuyến."
+          },
+          {
+            "feature_name": "Tính năng tìm kiếm và xem chi tiết sản phẩm",
+            "feature_description": "Website hỗ trợ tính năng tìm kiếm mạnh mẽ, cho phép khách hàng dễ dàng tìm kiếm các sản phẩm theo tên, danh mục, hoặc tính năng. Ngoài ra, người dùng có thể xem thông tin chi tiết về từng sản phẩm, bao gồm mô tả, giá cả, và các tùy chọn mua hàng."
+          },
+          {
+            "feature_name": "Quản lý đơn hàng và thanh toán",
+            "feature_description": "Khách hàng có thể thực hiện thanh toán nhanh chóng và an toàn qua nhiều phương thức khác nhau. Admin có quyền duyệt và quản lý các đơn hàng, đồng thời theo dõi tình trạng đơn hàng từ lúc đặt cho đến khi giao hàng thành công."
+          },
+          {
+            "feature_name": "Quản lý hệ thống dành cho Admin",
+            "feature_description": "Admin có toàn quyền quản lý hệ thống, bao gồm việc thêm, sửa, xóa sản phẩm, theo dõi và xử lý đơn hàng, cũng như quản lý người dùng. Bên cạnh đó, Admin có thể theo dõi thống kê và báo cáo để đưa ra các quyết định phù hợp trong việc phát triển hệ thống."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Công nghệ sử dụng",
+        "technologies": [
+          "C#",
+          "ASP.NET",
+          "MVC",
+          "SQL Server",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": "https://youtu.be/yNqN0FfautM"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/hoangg1212/Cake_Shop.git"
+        }
+      ]
+    },
+    "confectionery_store_website": {
+      "project_name": "Confectionery Store Website",
+      "duration": "21/05/2024 - 30/07/2024",
+      "project_type": "Dự án cá nhân",
+      "overview": {
+        "title": "Mô tả",
+        "content": "Website này được phát triển như một dự án cá nhân, nhằm cung cấp một nền tảng mua sắm trực tuyến tiện lợi và dễ dàng cho cả người quản trị (Admin) và người dùng (khách hàng). Dự án này mang lại sự linh hoạt trong việc quản lý và sử dụng, từ việc duy trì và phát triển hệ thống đến việc tạo ra trải nghiệm mượt mà cho người dùng."
+      },
+      "key_features": {
+        "title": "Các chức năng chính",
+        "features_list": [
+          {
+            "feature_name": "Phân quyền Admin và khách hàng",
+            "feature_description": "Hệ thống phân quyền rõ ràng và linh hoạt giúp phân biệt chức năng của Admin và khách hàng."
+          },
+          {
+            "feature_name": "Chatbot",
+            "feature_description": "Chatbot hỗ trợ khách hàng trong việc giải đáp thắc mắc và hướng dẫn người dùng trong quá trình mua sắm."
+          },
+          {
+            "feature_name": "Tìm kiếm, xem chi tiết, đặt hàng, thanh toán",
+            "feature_description": "Website cung cấp tính năng tìm kiếm, xem chi tiết sản phẩm, đặt hàng và thanh toán dễ dàng."
+          },
+          {
+            "feature_name": "Quản lý hệ thống dành cho Admin",
+            "feature_description": "Admin có thể quản lý sản phẩm, đơn hàng, người dùng và theo dõi các báo cáo thống kê."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Công nghệ sử dụng",
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Express",
+          "MongoDB",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/watch?v=-h7WUv1T3KM"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/hoangg1212/Confectionery_Store-.git"
+        }
+      ]
+    },
+    "toeic_test_support_website": {
+      "project_name": "TOEIC Test Support Website",
+      "duration": "23/11/2024 - 07/01/2025",
+      "project_type": "Dự án cá nhân",
+      "overview": {
+        "title": "Mô tả",
+        "content": "Website hỗ trợ luyện thi TOEIC với các bài thi thử, tích điểm đổi quà và không gian trao đổi kiến thức."
+      },
+      "key_features": {
+        "title": "Các chức năng chính",
+        "features_list": [
+          {
+            "feature_name": "Phân quyền người dùng",
+            "feature_description": "Hệ thống phân quyền rõ ràng giữa các nhóm người dùng (Admin, Giảng viên, Học viên), giúp quản lý và phân bổ quyền truy cập hợp lý."
+          },
+          {
+            "feature_name": "Chatbot",
+            "feature_description": "Tích hợp Chatbot thông minh giúp người dùng giải đáp các câu hỏi thường gặp, cung cấp thông tin về các bài thi, tài liệu học tập."
+          },
+          {
+            "feature_name": "Đăng ký, đăng nhập, quên mật khẩu",
+            "feature_description": "Tính năng đăng ký và đăng nhập giúp người dùng dễ dàng tạo tài khoản và truy cập vào hệ thống."
+          },
+          {
+            "feature_name": "Tìm kiếm và xem chi tiết bài thi",
+            "feature_description": "Người dùng có thể tìm kiếm bài thi theo chủ đề, độ khó và thời gian thi, giúp họ lên kế hoạch và chuẩn bị tốt nhất."
+          },
+          {
+            "feature_name": "Làm bài thi, tích điểm và đổi quà",
+            "feature_description": "Người dùng có thể tích lũy điểm số và đạt được các phần quà hấp dẫn khi đạt được thành tích cao."
+          },
+          {
+            "feature_name": "Diễn đàn trao đổi",
+            "feature_description": "Diễn đàn tạo điều kiện cho người dùng giao lưu, thảo luận và chia sẻ kinh nghiệm về các bài thi, chiến lược học tập."
+          },
+          {
+            "feature_name": "Quản lý đề thi",
+            "feature_description": "Admin có thể tạo mới, chỉnh sửa và xóa các bài thi để đảm bảo nội dung luôn phù hợp với yêu cầu học tập."
+          },
+          {
+            "feature_name": "Quản lý Quà tặng",
+            "feature_description": "Hệ thống giúp Admin theo dõi điểm số của học viên và phân phát các phần quà khuyến khích sự tham gia của họ."
+          },
+          {
+            "feature_name": "Quản lý hệ thống dành cho Admin",
+            "feature_description": "Admin có quyền quản lý toàn bộ hệ thống, bao gồm người dùng, bài thi, quà tặng và các tài nguyên khác."
+          }
+        ]
+      },
+      "technologies_used": {
+        "title": "Công nghệ sử dụng",
+        "technologies": [
+          "ReactJS",
+          "NodeJS",
+          "Express",
+          "MySQL",
+          "GitHub"
+        ]
+      },
+      "external_links": [
+        {
+          "platform": "YouTube",
+          "url": ""
+        },
+        {
+          "platform": "GitHub",
+          "url": ""
+        }
+      ]
     }
   }
+}
