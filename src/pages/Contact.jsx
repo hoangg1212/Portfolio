@@ -28,7 +28,7 @@ const Contact = () => {
     }, [t, reset]);
 
     return (
-        <section name='contact' className='pt-8'>
+        <section name='contact' className='pt-8 pb-8'>
             <h1 className='text-3xl font-bold mb-5'>{t('contact.name')}</h1>
             <p>{t('contact.description')}</p>
             <div className='flex flex-col items-center justify-center mt-5'>

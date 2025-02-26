@@ -61,6 +61,9 @@
         "error": "Gửi thất bại! Vui lòng thử lại sau.",
         "success": "Gửi thành công!",
         "text": "Gửi"
+      },
+      "captcha": {
+        "error": "Vui lòng xác nhận rằng bạn không phải là robot."
       }
     },
     "name": "Liên Hệ"
@@ -76,7 +79,9 @@
     "seo_title": "Portfolio",
     "technology": "Công nghệ sử dụng",
     "title": "'Success is not the key to happiness. Happiness is the key to success.'— Albert Schweitzer",
-    "welcome": "Chào mừng bạn đến với Profile của tôi"
+    "welcome": "Chào mừng bạn đến với Profile của tôi",
+    "downloadcv": "Tải xuống CV",
+    "viewcv": "Xem CV"
   },
   "myProfilo": {
     "last_name": "Lê Huy",

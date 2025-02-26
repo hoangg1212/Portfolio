@@ -3,12 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import PortFolio from './components/PortFolio'
-import Experiance from './components/Experiance'
+import Home from './pages/Home'
+import About from './pages/About'
+import PortFolio from './pages/PortFolio'
+import Experiance from './pages/Experiance'
 import Footer from './components/Footer'
-import Contact from './components/Contact'
+import Contact from './pages/Contact'
 
 import './i18n';
 
@@ -29,11 +29,12 @@ function App() {
           <Experiance />
           <Contact />
         </main>
-
+        <Footer />
         <Toaster />
+        <ScrollToTopButton/>
       </div>
-      <Footer />
-      <ScrollToTopButton/>
+      
+      
     </>
   )
 }

@@ -61,6 +61,9 @@
         "error": "Send failed! Please try again later.",
         "success": "Sent successfully!",
         "text": "Sent"
+      },
+      "captcha": {
+        "error": "Please verify that you are not a robot."
       }
     },
     "name": "Contact"
@@ -76,7 +79,9 @@
     "seo_title": "Portfolio",
     "technology": "Technology used",
     "title": "'Success is not the key to happiness. Happiness is the key to success.'— Albert Schweitzer",
-    "welcome": "Welcome to my Profile"
+    "welcome": "Welcome to my Profile",
+    "downloadcv": "Download CV",
+    "viewcv": "View CV Image"
   },
   "myProfilo": {
     "last_name": "Le Huy",
@@ -95,6 +100,7 @@
       "project_name": "Cake Shop Website",
       "duration": "15/03/2024 - 12/05/2024",
       "project_type": "Personal project",
+      "project_img": "Cake Shop Website",
       "overview": {
         "title": "Description",
         "content": "This website is developed as a personal project, aiming to provide a convenient and easy online shopping platform for both administrators (Admin) and users (customers). This project offers flexibility in management and use, from maintaining and developing the system to creating a smooth experience for users."
@@ -145,6 +151,7 @@
       "project_name": "Confectionery Store Website",
       "duration": "21/05/2024 - 30/07/2024",
       "project_type": "Personal project",
+      "project_img": "Confectionery Store Website",
       "overview": {
         "title": "Description",
         "content": "This website is developed as a personal project, aiming to provide a convenient and easy online shopping platform for both administrators (Admin) and users (customers). This project offers flexibility in management and use, from maintaining and developing the system to creating a smooth experience for users."
@@ -195,6 +202,7 @@
       "project_name": "TOEIC Test Support Website",
       "duration": "23/11/2024 - 07/01/2025",
       "project_type": "Personal project",
+      "project_img": "TOEIC Test Support Website",
       "overview": {
         "title": "Description",
         "content": "Website supporting TOEIC test preparation with mock tests, points to redeem gifts and knowledge exchange space."

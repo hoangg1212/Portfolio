@@ -18,7 +18,7 @@ const PortFolio = () => {
             <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src={duan01} alt="" className="w-14 h-14 rounded-full" />
+                  <img src={duan01} alt={t('projects.toeic_test_support_website.project_img')} className="w-14 h-14 rounded-full" loading="lazy" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   {t('projects.toeic_test_support_website.duration')}
@@ -36,7 +36,7 @@ const PortFolio = () => {
                     {t('projects.toeic_test_support_website.overview.content')}
                   </p>
 
-                  <b className="font-bold">{t('projects.toeic_test_support_website.key_features.title')}</b>
+                  <b className="font-bold">{t('projects.toeic_test_support_website.key_features.title')} : </b>
                   <div className="ml-6">
                     {t('projects.toeic_test_support_website.key_features.features_list', { returnObjects: true }).map((feature, index) => (
                       <p key={index}>
@@ -73,7 +73,7 @@ const PortFolio = () => {
             <div className="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src={duan02} alt="" className="w-14 h-14 rounded-full" />
+                  <img src={duan02} alt={t('projects.confectionery_store_website.project_img')} className="w-14 h-14 rounded-full" loading="lazy" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   {t('projects.confectionery_store_website.duration')}
@@ -91,7 +91,7 @@ const PortFolio = () => {
                     {t('projects.confectionery_store_website.overview.content')}
                   </p>
 
-                  <b className="font-bold">{t('projects.confectionery_store_website.key_features.title')}</b>
+                  <b className="font-bold">{t('projects.confectionery_store_website.key_features.title')} : </b>
                   <div className="ml-6">
                     {t('projects.confectionery_store_website.key_features.features_list', { returnObjects: true }).map((feature, index) => (
                       <p key={index}>
@@ -128,7 +128,7 @@ const PortFolio = () => {
             <div className="border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
               <div className="relative flex flex-col justify-start pl-12">
                 <div className="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700">
-                  <img src={duan03} alt="" className="w-14 h-14 rounded-full" />
+                  <img src={duan03} alt={t('projects.cake_shop_website.project_img')} className="w-14 h-14 rounded-full" loading="lazy" />
                 </div>
                 <p className="text-sm uppercase text-neutral-400 dark:text-neutral-500 tracking-widest">
                   {t('projects.cake_shop_website.duration')}
@@ -146,7 +146,7 @@ const PortFolio = () => {
                     {t('projects.cake_shop_website.overview.content')}
                   </p>
 
-                  <b className="font-bold">{t('projects.cake_shop_website.key_features.title')}</b>
+                  <b className="font-bold">{t('projects.cake_shop_website.key_features.title')} : </b>
                   <div className="ml-6">
                     {t('projects.cake_shop_website.key_features.features_list', { returnObjects: true }).map((feature, index) => (
                       <p key={index}>
