@@ -88,8 +88,8 @@ const Home = () => {
                             <div className='flex justify-center space-x-4'>
                                 {/* Nút tải CV */}
                                 <a
-                                    href=''
-                                    download
+                                    href='/LeHuyHoang_FEIntern_CV.pdf' 
+                                    download='LeHuyHoang_FEIntern_CV.pdf' 
                                     className='px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105'
                                     aria-label='Download Resume'
                                 >
@@ -98,8 +98,9 @@ const Home = () => {
 
                                 {/* Nút mở CV hình ảnh */}
                                 <a
-                                    href=''
+                                    href='/LeHuyHoang_FEIntern_CV.pdf' 
                                     target='_blank' 
+                                    rel='noopener noreferrer' 
                                     className='px-6 py-3 bg-gradient-to-r from-green-400 to-teal-500 text-white rounded-full shadow-lg hover:from-green-500 hover:to-teal-600 transition-all duration-300 transform hover:scale-105'
                                     aria-label='View Resume Image'
                                 >
