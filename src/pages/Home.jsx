@@ -47,7 +47,7 @@ const Home = () => {
                         <div className='flex space-x-1 text-2xl md:text-4xl'>
                             <h1>{t('home.hello')}</h1>
                             <ReactTyped
-                                className='text-red-700 font-bold '
+                                className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 font-bold'
                                 strings={useMemo(() => ["Developer", "Coder"], [])}
                                 typeSpeed={40}
                                 backSpeed={50}
@@ -61,11 +61,11 @@ const Home = () => {
                         <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>
                             <div className='space-y-2 text-center md:text-left'>
                                 <span>{t("home.network")}</span>
-                                <ul className='flex space-x-5'>
+                                <ul className='flex justify-center md:justify-start space-x-5'>
                                     {socialLinks.map((social, index) => (
                                         <li key={index}>
                                             <a href={social.href} target='_blank' rel='noopener noreferrer' aria-label={social.name}>
-                                                {React.cloneElement(social.icon, { className: 'text-2xl cursor-pointer' })}
+                                                {React.cloneElement(social.icon, { className: 'text-2xl cursor-pointer hover:text-green-400 transition-colors duration-300' })}
                                             </a>
                                         </li>
                                     ))}
@@ -73,10 +73,10 @@ const Home = () => {
                             </div>
                             <div className='space-y-2 text-center md:text-left'>
                                 <span>{t("home.technology")}</span>
-                                <ul className='flex space-x-5'>
+                                <ul className='flex justify-center md:justify-start space-x-5'>
                                     {techIcons.map((tech, index) => (
                                         <li key={index} aria-label={tech.name}>
-                                            {React.cloneElement(tech.icon, { className: 'text-xl md:text-3xl hover:scale-110 duration-200' })}
+                                            {React.cloneElement(tech.icon, { className: 'text-xl md:text-3xl hover:scale-110 transition-transform duration-200' })}
                                         </li>
                                     ))}
                                 </ul>

@@ -22,7 +22,7 @@ function App() {
     <>
       <div className='max-w-screen-2xl w-full mx-auto px-4 md:px-20 '>
         <Header />
-        <main className='container my-20'>
+        <main className='container my-20 '>
           <Home />
           <About />
           <PortFolio />
