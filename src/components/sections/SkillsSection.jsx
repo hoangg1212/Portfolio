@@ -4,8 +4,7 @@ import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 import { useTheme } from '../../context/ThemeContext';
 import { skills_category, tech_stack, stats } from '../../utils/data';
-import { containerVariants, itemVariants } from '../../utils/helper';
-import { Monitor } from 'lucide-react';
+import { containerVariants, itemVariants, skillBarVariants } from '../../utils/helper';
 
 const SkillsSection = () => {
     const { isDarkMode } = useTheme();
@@ -18,19 +17,6 @@ const SkillsSection = () => {
     });
 
     const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
-
-    const skillBarVariants = {
-        hidden: { width: 0, opacity: 0 },
-        visible: (level) => ({
-            width: `${level}%`,
-            opacity: 1,
-            transition: {
-                duration: 1.2,
-                ease: 'easeOut',
-                delay: 0.3,
-            },
-        }),
-    };
 
     return (
         <section
@@ -50,7 +36,8 @@ const SkillsSection = () => {
             </motion.div>
 
             <div className='max-w-6xl mx-auto relative z-10'>
-                {/* Section - Header*/}
+                
+                {/* Skill - Header*/}
                 <motion.div
                     initial="hidden"
                     animate={isInView ? "visible" : "hidden"}
@@ -75,14 +62,14 @@ const SkillsSection = () => {
 
                     <motion.p
                         variants={itemVariants}
-                        className={`text-ls ${isDarkMode ? "text-gray-400" : "text-gray-600"
+                        className={`text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"
                             } max-w-2xl mx-auto font-light`}
                     >
                         sdfdfedfd
                     </motion.p>
                 </motion.div>
 
-                {/* Section - Grid*/}
+                {/* Skill - Grid*/}
                 <motion.div
                     initial="hidden"
                     animate={isInView ? "visible" : "hidden"}
@@ -167,8 +154,8 @@ const SkillsSection = () => {
                                 key={tech}
                                 whileHover={{ y: -2, scale: 1.05 }}
                                 className={`px-4 py-2 text-sm rounded-full border transition-all duration-300 ${isDarkMode
-                                        ? "bg-gray-900 border-gray-700 text-gray-300 hover:border-gray-600"
-                                        : "bg-white border-gray-300 text-gray-700 hover:border-gray-400"
+                                    ? "bg-gray-900 border-gray-700 text-gray-300 hover:border-gray-600"
+                                    : "bg-white border-gray-300 text-gray-700 hover:border-gray-400"
                                     }`}
                             >
                                 {tech}
@@ -178,9 +165,31 @@ const SkillsSection = () => {
                 </motion.div>
 
                 {/* Stats */}
+                <motion.div
+                    initial="hidden"
+                    animate={isInView ? "visible" : "hidden"}
+                    variants={containerVariants}
+                    className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
+                >
+                    {stats.map((stat, index) => (
+                        <motion.div
+                            key={stat.label}
+                            variants={itemVariants}
+                            className='text-center'
+                        >
+                            <div className='text-2xl md:text-3xl font-light text-blue-500 mb-2'>
+                                {stat.number}
+                            </div>
 
+                            <div className={`text-sm ${isDarkMode ? "text-gray-400" : "text-gray-600"
+                                }`}>
+                                {stat.label}
+                            </div>
+                        </motion.div>
+                    ))}
+                </motion.div>
+            
             </div>
-
         </section>
     )
 }

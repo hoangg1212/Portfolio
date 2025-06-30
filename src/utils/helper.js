@@ -8,6 +8,7 @@ export const containerVariants = {
         },
     },
 };
+
 export const itemVariants = {
     hidden: { y: 30, opacity: 0 },
     visible: {
@@ -19,3 +20,16 @@ export const itemVariants = {
         },
     },
 };
+
+export const skillBarVariants = {
+        hidden: { width: 0, opacity: 0 },
+        visible: (level) => ({
+            width: `${level}%`,
+            opacity: 1,
+            transition: {
+                duration: 1.2,
+                ease: 'easeOut',
+                delay: 0.3,
+            },
+        }),
+    };
