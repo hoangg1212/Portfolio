@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 import { motion, useScroll, useTransform, } from "framer-motion";
 import { ArrowDown, Mail, } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
@@ -167,7 +166,7 @@ const HeroSection = () => {
                                     onClick={() => scrollToSection("work")}
                                     className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
                                 >
-                                    View work
+                                    Xem thêm
                                 </motion.button>
                                 <motion.button
                                     whileHover={{ y: -2 }}
@@ -176,7 +175,7 @@ const HeroSection = () => {
                                     className={`border ${isDarkMode ? "border-gray-700 hover:border-gray-600 text-gray-300" : "border-gray-300 hover:border-gray-400 text-gray-700"
                                         } px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300`}
                                 >
-                                    Contact
+                                    Liên hệ
                                 </motion.button>
                             </motion.div>
 
@@ -300,7 +299,7 @@ const HeroSection = () => {
                                     onClick={() => scrollToSection("work")}
                                     className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300"
                                 >
-                                    View work
+                                    Xem thêm
                                 </motion.button>
                                 <motion.button
                                     whileHover={{ y: -2 }}
@@ -309,7 +308,7 @@ const HeroSection = () => {
                                     className={`border ${isDarkMode ? "border-gray-700 hover:border-gray-600 text-gray-300" : "border-gray-300 hover:border-gray-400 text-gray-700"
                                         } px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300`}
                                 >
-                                    Contact
+                                    Liên hệ
                                 </motion.button>
                             </motion.div>
                             {/* Social Links - Desktop */}

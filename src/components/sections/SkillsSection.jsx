@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 import { useTheme } from '../../context/ThemeContext';
@@ -20,8 +19,8 @@ const SkillsSection = () => {
 
     return (
         <section
-            ref={sectionRef}
             id="skills"
+            ref={sectionRef}
             className={`py-24 px-6 ${isDarkMode ? "bg-gray-950 text-white" : "bg-gray-50 text-gray-900"
                 } relative overflow-hidden`}
         >
@@ -36,7 +35,7 @@ const SkillsSection = () => {
             </motion.div>
 
             <div className='max-w-6xl mx-auto relative z-10'>
-                
+
                 {/* Skill - Header*/}
                 <motion.div
                     initial="hidden"
@@ -49,15 +48,15 @@ const SkillsSection = () => {
                         className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
                             } mb-4`}
                     >
-                        Haaa
+                        Đôi nét về kỹ năng của tôi
                     </motion.div>
 
                     <motion.h2
                         variants={itemVariants}
                         className='text-3xl md:text-5xl font-light mb-6'
                     >
-                        Skills &
-                        <span className='text-blue-500 font-medium'>Techologies</span>
+                        Kỹ Năng &
+                        <span className='text-blue-500 font-medium'>Công Nghệ Sử Dụng</span>
                     </motion.h2>
 
                     <motion.p
@@ -65,7 +64,7 @@ const SkillsSection = () => {
                         className={`text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"
                             } max-w-2xl mx-auto font-light`}
                     >
-                        sdfdfedfd
+                        Tôi thành thạo HTML, CSS, JavaScript và có kinh nghiệm làm việc với ReactJS, VueJS cùng các công nghệ như Github, MongoDB và MySQL. Tôi luôn nỗ lực cập nhật công nghệ để tối ưu trải nghiệm người dùng.
                     </motion.p>
                 </motion.div>
 
@@ -142,7 +141,7 @@ const SkillsSection = () => {
                     className="mt-16"
                 >
                     <motion.div variants={itemVariants} className="text-center mb-8">
-                        <h3 className="text-xl font-medium mb-4">Also working with</h3>
+                        <h3 className="text-xl font-medium mb-4">Một số công nghệ tôi sử dụng</h3>
                     </motion.div>
 
                     <motion.div
@@ -177,6 +176,8 @@ const SkillsSection = () => {
                             variants={itemVariants}
                             className='text-center'
                         >
+                            <stat.icon size={28} className="mx-auto text-blue-500 mb-2" />
+                            
                             <div className='text-2xl md:text-3xl font-light text-blue-500 mb-2'>
                                 {stat.number}
                             </div>
@@ -188,7 +189,7 @@ const SkillsSection = () => {
                         </motion.div>
                     ))}
                 </motion.div>
-            
+
             </div>
         </section>
     )

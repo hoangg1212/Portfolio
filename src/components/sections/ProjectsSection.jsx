@@ -1,8 +1,6 @@
 import React, { useRef } from 'react'
-
 import { motion, useInView } from 'framer-motion';
 import { ArrowUpRight, Code2, Globe, Zap, Users } from 'lucide-react';
-
 
 import { useTheme } from '../../context/ThemeContext';
 import { projects } from '../../utils/data';
@@ -49,21 +47,22 @@ const ProjectsSection = () => {
             className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
               } mb-4`}
           >
-            Haaa
+            TÌm hiểu về dự án của tôi
           </motion.div>
           <motion.h2
             variants={itemVariants}
-            className='text-3xl md:text-5xl font-light mb-6'
+            className='text-3xl md:text-5xl font-light mb-6 '
           >
-            Recent
-            <span className='text-blue-500 font-medium'> Projects</span>
+            Một Số
+            <span className='text-blue-500 font-medium'> Dự Án </span>
+            Của Tôi
           </motion.h2>
           <motion.p
             variants={itemVariants}
             className={`text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"
               } max-w-2xl mx-auto font-light`}
           >
-            sdfdfedfd
+            Sau đây là một số dự án tiêu biểu mà tôi đã thực hiện trong quá trình học tập và rèn luyện kỹ năng. Các dự án tập trung vào phát triển giao diện người dùng, tối ưu trải nghiệm người dùng và áp dụng các công nghệ như ReactJS, ASP.Net, HTML/CSS, cùng khả năng tích hợp API và xử lý dữ liệu thực tế.
           </motion.p>
         </motion.div>
 
