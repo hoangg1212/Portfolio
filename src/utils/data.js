@@ -33,16 +33,17 @@ import project_img_5 from "../assets/images/image01.jpg";
 import project_img_6 from "../assets/images/image01.jpg";
 import project_img_7 from "../assets/images/image01.jpg";
 
+// Skills
 export const skills_category = [
     {
         title: "Frontend",
         icon: Code2,
         description: "Thành thạo các công nghệ giao diện người dùng hiện đại, tập trung vào trải nghiệm người dùng, responsive và hiệu suất.",
         skills: [
-            { name: "HTML", level: 95, color: "bg-orange-500" },
-            { name: "CSS / Tailwind", level: 90, color: "bg-sky-500" },
-            { name: "ReactJS", level: 85, color: "bg-cyan-600" },
-            { name: "VueJS", level: 55, color: "bg-green-500" },
+            { name: "HTML", level: 95, color: "bg-orange-600" },        
+            { name: "CSS / Tailwind", level: 90, color: "bg-sky-400" }, 
+            { name: "ReactJS", level: 85, color: "bg-cyan-500" },       
+            { name: "VueJS", level: 55, color: "bg-emerald-500" },      
         ],
     },
     {
@@ -50,10 +51,10 @@ export const skills_category = [
         icon: Server,
         description: "Có kinh nghiệm làm việc với các công nghệ backend phổ biến, xử lý logic nghiệp vụ, API và quản lý máy chủ.",
         skills: [
-            { name: "ASP.NET", level: 90, color: "bg-blue-600" },
-            { name: "Node.js", level: 75, color: "bg-green-600" },
-            { name: "Express.js", level: 70, color: "bg-gray-800" },
-            { name: "RESTful API", level: 80, color: "bg-yellow-500" },
+            { name: "ASP.NET", level: 90, color: "bg-purple-700" },    
+            { name: "Node.js", level: 75, color: "bg-lime-600" },      
+            { name: "Express.js", level: 70, color: "bg-zinc-600" },    
+            { name: "RESTful API", level: 80, color: "bg-yellow-500" }, 
         ],
     },
     {
@@ -61,10 +62,10 @@ export const skills_category = [
         icon: Cloud,
         description: "Hiểu biết cơ bản về các nền tảng đám mây và công cụ triển khai ứng dụng, CI/CD và quản lý tài nguyên cloud.",
         skills: [
-            { name: "Vercel", level: 80, color: "bg-black" },
-            { name: "Netlify", level: 75, color: "bg-green-500" },
-            { name: "Github", level: 60, color: "bg-gray-700" },
-            { name: "Docker", level: 40, color: "bg-blue-500" },
+            { name: "Vercel", level: 80, color: "bg-neutral-900" },     
+            { name: "Netlify", level: 75, color: "bg-teal-500" },       
+            { name: "Github", level: 60, color: "bg-slate-700" },       
+            { name: "Docker", level: 40, color: "bg-blue-400" },        
         ],
     },
     {
@@ -72,9 +73,9 @@ export const skills_category = [
         icon: Database,
         description: "Làm việc với cơ sở dữ liệu quan hệ và phi quan hệ để lưu trữ, truy vấn và xử lý dữ liệu hiệu quả.",
         skills: [
-            { name: "SQL Server", level: 90, color: "bg-indigo-700" },
-            { name: "MySQL", level: 85, color: "bg-orange-600" },
-            { name: "MongoDB", level: 80, color: "bg-green-600" },
+            { name: "SQL Server", level: 90, color: "bg-red-700" },     
+            { name: "MySQL", level: 85, color: "bg-blue-600" },         
+            { name: "MongoDB", level: 80, color: "bg-green-700" },      
         ],
     }
 ];
@@ -98,7 +99,6 @@ export const tech_stack = [
     "Github",
 ];
 
-
 export const stats = [
     { number: "20", icon: Code2, label: "Dự án đã xây dựng" },
     { number: "9+", icon: Users, label: "Khách hàng hài lòng" },
@@ -106,6 +106,7 @@ export const stats = [
     { number: "95%", icon: Zap, label: "Điểm hiệu suất" },
 ];
 
+// Projects
 export const projects = [
     {
         id: 1,
@@ -164,6 +165,30 @@ export const projects = [
     },
 ];
 
+// About
+export const passions = [
+    {
+        icon: Dribbble,
+        title: "Đá bóng",
+        description: "Rèn luyện thể chất, nâng cao tinh thần đồng đội và giải tỏa căng thẳng sau những giờ học và làm việc căng thẳng.",
+    },
+    {
+        icon: Headphones,
+        title: "Nghe nhạc",
+        description: "Thưởng thức âm nhạc để thư giãn tinh thần, tìm cảm hứng sáng tạo trong công việc và cuộc sống.",
+    },
+    {
+        icon: BookOpen,
+        title: "Đọc sách",
+        description: "Mở rộng kiến thức, nâng cao tư duy và trau dồi kỹ năng thông qua những trang sách giá trị.",
+    },
+    {
+        icon: Gamepad2,
+        title: "Chơi game",
+        description: "Giải trí, rèn luyện phản xạ và tư duy chiến thuật thông qua các trò chơi điện tử yêu thích.",
+    },
+];
+
 export const journey_steps = [
     {
         year: "09/2021",
@@ -207,26 +232,22 @@ export const journey_steps = [
     }
 ];
 
-export const passions = [
+// Contact
+export const contact_info = [
     {
-        icon: Dribbble,
-        title: "Đá bóng",
-        description: "Rèn luyện thể chất, nâng cao tinh thần đồng đội và giải tỏa căng thẳng sau những giờ học và làm việc căng thẳng.",
+        icon: MapPin,
+        label: "Địa chỉ",
+        value: "HCM",
     },
     {
-        icon: Headphones,
-        title: "Nghe nhạc",
-        description: "Thưởng thức âm nhạc để thư giãn tinh thần, tìm cảm hứng sáng tạo trong công việc và cuộc sống.",
+        icon: Mail,
+        label: "Email",
+        value: "....@gmail.com",
     },
     {
-        icon: BookOpen,
-        title: "Đọc sách",
-        description: "Mở rộng kiến thức, nâng cao tư duy và trau dồi kỹ năng thông qua những trang sách giá trị.",
-    },
-    {
-        icon: Gamepad2,
-        title: "Chơi game",
-        description: "Giải trí, rèn luyện phản xạ và tư duy chiến thuật thông qua các trò chơi điện tử yêu thích.",
+        icon: Phone,
+        label: "Phone",
+        value: "+84 123456789",
     },
 ];
 
@@ -258,23 +279,5 @@ export const social_link = [
         url: "#",
         color: "hover:text-green-400",
         bgColor: "hover:bg-green-500/10",
-    },
-];
-
-export const contact_info = [
-    {
-        icon: MapPin,
-        label: "Location",
-        value: "HCM",
-    },
-    {
-        icon: Mail,
-        label: "Email",
-        value: "HCM@gmail.com",
-    },
-    {
-        icon: Phone,
-        label: "Phone",
-        value: "084874873",
     },
 ];

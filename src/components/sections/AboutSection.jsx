@@ -26,7 +26,7 @@ const AboutSections = () => {
 
   return (
     <section
-      id="about"
+      id="giới thiệu"
       ref={sectionRef}
       className={`py-24 px-6 ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
         } relative overflow-hidden`}
@@ -53,14 +53,14 @@ const AboutSections = () => {
             className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
               } mb-4`}
           >
-            Tìm hiểu về tôi
+            Tôi là ai trên hành trình công nghệ này?
           </motion.div>
           <motion.h2
             variants={itemVariants}
-            className='text-3xl md:text-5xl font-light mb-6'
+            className='text-3xl md:text-5xl font-light mb-6 capitalize '
           >
-            Giới Thiệu
-            <span className='text-blue-500 font-medium'> Bản Thân</span>
+            <span className='text-blue-500 font-medium'> Sự phát triển </span>
+              không đến từ hoàn hảo, mà đến từ kiên trì
           </motion.h2>
         </motion.div>
 
@@ -77,7 +77,7 @@ const AboutSections = () => {
               className={`p-8 rounded-2xl border ${isDarkMode ? "bg-gray-800/50 border-gray-500 backdrop-blur-sm" : "bg-gray-50/80 border-gray-200 backdrop-blur-sm"
                 }`}
             >
-              <h3 className='text-2xl font-medium mb-6'>Đôi nét về tôi</h3>
+              <h3 className='text-2xl font-medium mb-6'>Tôi là ai?</h3>
               <p
                 className={`text-lg leading-relaxed mb-6 text-justify ${isDarkMode ? "text-gray-300" : "text-gray-700"
                   }`}
@@ -94,7 +94,7 @@ const AboutSections = () => {
 
             {/* About - What I Love*/}
             <motion.div variants={itemVariants} className='space-y-4'>
-              <h3 className='text-xl font-medium mb-6'>Các hoạt động yêu thích</h3>
+              <h3 className='text-xl font-medium mb-6'>Khi không viết code, tôi...</h3>
               <div className='grid gap-4'>
                 {passions.map((passion, index) => (
                   <motion.div
@@ -153,7 +153,7 @@ const AboutSections = () => {
             variants={timelineVariants}
             className='relative'
           >
-            <h3 className='text-2xl font-medium mb-8 text-center lg:text-left'>Hành trình phát triển của tôi</h3>
+            <h3 className='text-2xl font-medium mb-8 text-center lg:text-left'>Mỗi giai đoạn, một bài học</h3>
 
             {/* About - Timeline */}
             <div
@@ -228,7 +228,7 @@ const AboutSections = () => {
               className={`text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"
                 }`}
             >
-              Bạn sẵn sàng biến ý tưởng của mình thành hiện chưa ?
+              Đừng để ý tưởng của bạn chỉ nằm trên giấy. Cùng tôi biến nó thành sản phẩm thực tế!
             </p>
 
             <motion.button
@@ -236,7 +236,7 @@ const AboutSections = () => {
               whileTap={{ scale: 0.98 }}
               className='bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300'
             >
-              Hãy cùng làm việc với nhau nhé !
+              Cùng nhau biến ý tưởng thành hiện thực
             </motion.button>
 
           </motion.div>

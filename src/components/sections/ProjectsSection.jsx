@@ -16,7 +16,7 @@ const ProjectsSection = () => {
 
   return (
     <section
-      id="projects"
+      id="dự án"
       ref={sectionRef}
       className={`py-24 px-6 ${isDarkMode ? "bg-gray-950 text-white" : "bg-gray-50 text-gray-900"
         } relative overflow-hidden`}
@@ -47,15 +47,13 @@ const ProjectsSection = () => {
             className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
               } mb-4`}
           >
-            TÌm hiểu về dự án của tôi
+            Tôi không theo đuổi sự hoàn hảo, tôi theo đuổi sự tiến bộ qua từng dự án
           </motion.div>
           <motion.h2
             variants={itemVariants}
             className='text-3xl md:text-5xl font-light mb-6 '
           >
-            Một Số
-            <span className='text-blue-500 font-medium'> Dự Án </span>
-            Của Tôi
+            <span className='text-blue-500 font-medium'>Hành Trình</span> Qua Những Dự Án
           </motion.h2>
           <motion.p
             variants={itemVariants}

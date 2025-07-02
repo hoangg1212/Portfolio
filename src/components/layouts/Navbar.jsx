@@ -31,12 +31,12 @@ const Navbar = () => {
                     className="flex items-center space-x-2"
                 >
                     <Code2 size={24} className="text-blue-500" />
-                    <span className="text-lg ml-1">Time to Program</span>
+                    <span className="text-lg ml-1">Front-End Developver</span>
                 </motion.div>
 
                 {/* Desktop */}
                 <div className="hidden md:flex items-center space-x-8">
-                    {['Home', 'Skills', 'Projects', 'About', 'Contact'].map((item) => (
+                    {['Trang chủ', 'Kỹ năng', 'Dự án', 'Giới thiệu', 'Liên hệ'].map((item) => (
                         <motion.button
                             key={item}
                             whileHover={{ y: -2 }}

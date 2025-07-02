@@ -48,7 +48,7 @@ const HeroSection = () => {
                 }`}>
             {/* Hero Section */}
             <motion.section
-                id="home"
+                id="trang chủ"
                 style={{ y: heroY }}
                 className='min-h-screen flex items-center justify-center relative px-6 pt-10'
             >

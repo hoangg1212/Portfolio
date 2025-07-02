@@ -19,7 +19,7 @@ const SkillsSection = () => {
 
     return (
         <section
-            id="skills"
+            id="kỹ năng"
             ref={sectionRef}
             className={`py-24 px-6 ${isDarkMode ? "bg-gray-950 text-white" : "bg-gray-50 text-gray-900"
                 } relative overflow-hidden`}
@@ -48,15 +48,15 @@ const SkillsSection = () => {
                         className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
                             } mb-4`}
                     >
-                        Đôi nét về kỹ năng của tôi
+                        Nền tảng kỹ năng vững chắc để tạo nên giá trị
                     </motion.div>
 
                     <motion.h2
                         variants={itemVariants}
-                        className='text-3xl md:text-5xl font-light mb-6'
+                        className='text-3xl md:text-5xl font-light mb-6 capitalize '
                     >
-                        Kỹ Năng &
-                        <span className='text-blue-500 font-medium'>Công Nghệ Sử Dụng</span>
+                        Kỹ năng &
+                        <span className='text-blue-500 font-medium'> Chuyên môn</span>
                     </motion.h2>
 
                     <motion.p
@@ -141,7 +141,7 @@ const SkillsSection = () => {
                     className="mt-16"
                 >
                     <motion.div variants={itemVariants} className="text-center mb-8">
-                        <h3 className="text-xl font-medium mb-4">Một số công nghệ tôi sử dụng</h3>
+                        <h3 className="text-xl font-medium mb-4 capitalize ">Những công nghệ giúp tôi hiện thực hóa ý tưởng</h3>
                     </motion.div>
 
                     <motion.div
@@ -177,7 +177,7 @@ const SkillsSection = () => {
                             className='text-center'
                         >
                             <stat.icon size={28} className="mx-auto text-blue-500 mb-2" />
-                            
+
                             <div className='text-2xl md:text-3xl font-light text-blue-500 mb-2'>
                                 {stat.number}
                             </div>
