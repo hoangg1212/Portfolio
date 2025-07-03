@@ -62,7 +62,7 @@ const Navbar = () => {
                     </motion.button>
                 </div>
 
-                {/* Mobile Mnue Button */}
+                {/* Mobile Menu Button */}
                 <div className='md:hidden flex items-center space-x-4'>
                     <motion.button
                         whileHover={{ scale: 1.05 }}
@@ -99,7 +99,7 @@ const Navbar = () => {
                             }
                         `}
                     >
-                        {['Home', 'Skills', 'Projects', 'About', 'Contact'].map((item) => (
+                        {['Trang chủ', 'Kỹ năng', 'Dự án', 'Giới thiệu', 'Liên hệ'].map((item) => (
                             <motion.button
                                 key={item}
                                 whileHover={{ x: 5 }}

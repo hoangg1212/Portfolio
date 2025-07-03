@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion, useScroll, useTransform, } from "framer-motion";
 import { ArrowDown, Mail, } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FaYoutube } from "react-icons/fa";
 
 import { useTheme } from "../../context/ThemeContext";
 import avt from "../../assets/images/image01.jpg";
@@ -130,29 +131,27 @@ const HeroSection = () => {
 
                             <motion.h1
                                 variants={itemVariants}
-                                className='text-3xl md:text-5xl font-light leading-tight'
+                                className='text-3xl md:text-5xl font-light leading-tight text-justify'
                             >
                                 <span
                                     className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                                 >
-                                    Bull ding abccd
-                                </span>
-                                <br />
+                                    Mỗi dòng code là
+                                </span>{" "}
                                 <span className='text-blue-500 font-medium ml-2'>
-                                    expengghghshs
-                                </span>
-                                <br />
+                                    một phần trong câu chuyện của tôi
+                                </span>{" "}
                                 <span className={isDarkMode ? "text-white" : "text-gray-900"}>
-                                    tthatb bdvssvhd
+                                    về sự sáng tạo & kiên trì
                                 </span>
                             </motion.h1>
 
                             <motion.p
                                 variants={itemVariants}
-                                className={`text-base md:text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"
+                                className={`text-base md:text-lg text-justify ${isDarkMode ? "text-gray-400" : "text-gray-600"
                                     } mb-4 max-w-xl mx-auto font-light leading-relaxed`}
                             >
-                                I cralt dhdhj
+                                Tôi là một Front-End Developer luôn tìm kiếm cách để kể chuyện bằng trải nghiệm người dùng. Từ những ý tưởng thô sơ, tôi biến chúng thành sản phẩm sống động – nơi công nghệ gặp gỡ cảm xúc.
                             </motion.p>
 
                             {/* Button - Mobile*/}
@@ -185,16 +184,18 @@ const HeroSection = () => {
                                 className='flex justify-center space-x-6 mb-8'
                             >
                                 {[
-                                    { icon: FiGithub, href: "#" },
-                                    { icon: FiLinkedin, href: "#" },
-                                    { icon: Mail, href: "#" },
+                                    { icon: FiGithub, href: "#", color: "hover:text-gray-400" },
+                                    { icon: FiLinkedin, href: "#", color: "hover:text-blue-400" },
+                                    { icon: Mail, href: "#", color: "hover:text-green-400" },
+                                    { icon: FaYoutube, href: "https://www.youtube.com/@huyhoang3499", color: "hover:text-red-500" },
                                 ].map((social, index) => (
                                     <motion.a
                                         key={index}
                                         href={social.href}
+                                        target='_blank'
                                         whileHover={{ y: -3, scale: 1.1 }}
                                         className={`p-3 rounded-full transition-colors ${isDarkMode ? "text-gray-400 hover:text-white hover:bg-gray-800" : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-                                            }`}
+                                            } ${social.color}`}
                                     >
                                         <social.icon size={20} />
                                     </motion.a>
@@ -265,28 +266,26 @@ const HeroSection = () => {
                             </motion.div>
                             <motion.h1
                                 variants={itemVariants}
-                                className='text-5xl xl:text-7xl font-light mb-8 leading-tight'
+                                className='text-5xl xl:text-7xl font-light mb-8 leading-tight text-justify'
                             >
                                 <span
                                     className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                                 >
-                                    Bull ding abccd
-                                </span>
-                                <br />
+                                    Mỗi dòng code là
+                                </span>{" "}
                                 <span className='text-blue-500 font-medium'>
-                                    expengghghshs
-                                </span>
-                                <br />
+                                    một phần trong câu chuyện của tôi
+                                </span>{" "}
                                 <span className={isDarkMode ? "text-white" : "text-gray-900"}>
-                                    tthatb bdvssvhd
+                                    về sự sáng tạo & kiên trì
                                 </span>
                             </motion.h1>
                             <motion.p
                                 variants={itemVariants}
-                                className={`text-xl ${isDarkMode ? "text-gray-400" : "text-gray-600"
+                                className={`text-xl text-justify ${isDarkMode ? "text-gray-400" : "text-gray-600"
                                     } mb-12 font-light leading-relaxed max-w-lg`}
                             >
-                                I cralt dhdhj
+                                Tôi là một Front-End Developer luôn tìm kiếm cách để kể chuyện bằng trải nghiệm người dùng. Từ những ý tưởng thô sơ, tôi biến chúng thành sản phẩm sống động – nơi công nghệ gặp gỡ cảm xúc.
                             </motion.p>
                             {/* Button - Desktop */}
                             <motion.div
@@ -317,16 +316,18 @@ const HeroSection = () => {
                                 className='flex space-x-6 mb-12'
                             >
                                 {[
-                                    { icon: FiGithub, href: "#" },
-                                    { icon: FiLinkedin, href: "#" },
-                                    { icon: Mail, href: "#" },
+                                    { icon: FiGithub, href: "#", color: "hover:text-gray-400" },
+                                    { icon: FiLinkedin, href: "#", color: "hover:text-blue-400" },
+                                    { icon: Mail, href: "#", color: "hover:text-green-400" },
+                                    { icon: FaYoutube, href: "https://www.youtube.com/@huyhoang3499", color: "hover:text-red-500" },
                                 ].map((social, index) => (
                                     <motion.a
                                         key={index}
                                         href={social.href}
+                                        target='_blank'
                                         whileHover={{ y: -3, scale: 1.1 }}
                                         className={`p-3 rounded-full transition-colors ${isDarkMode ? "text-gray-400 hover:text-white hover:bg-gray-800" : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-                                            }`}
+                                            } ${social.color} `}
                                     >
                                         <social.icon size={20} />
                                     </motion.a>

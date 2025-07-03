@@ -24,14 +24,10 @@ import {
 
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FaYoutube } from "react-icons/fa";
 
 import project_img_1 from "../assets/images/image01.jpg";
-import project_img_2 from "../assets/images/image01.jpg";
-import project_img_3 from "../assets/images/image01.jpg";
-import project_img_4 from "../assets/images/image01.jpg";
-import project_img_5 from "../assets/images/image01.jpg";
-import project_img_6 from "../assets/images/image01.jpg";
-import project_img_7 from "../assets/images/image01.jpg";
+
 
 // Skills
 export const skills_category = [
@@ -40,10 +36,10 @@ export const skills_category = [
         icon: Code2,
         description: "Thành thạo các công nghệ giao diện người dùng hiện đại, tập trung vào trải nghiệm người dùng, responsive và hiệu suất.",
         skills: [
-            { name: "HTML", level: 95, color: "bg-orange-600" },        
-            { name: "CSS / Tailwind", level: 90, color: "bg-sky-400" }, 
-            { name: "ReactJS", level: 85, color: "bg-cyan-500" },       
-            { name: "VueJS", level: 55, color: "bg-emerald-500" },      
+            { name: "HTML", level: 95, color: "bg-orange-600" },
+            { name: "CSS / Tailwind", level: 85, color: "bg-sky-400" },
+            { name: "ReactJS", level: 80, color: "bg-cyan-500" },
+            { name: "VueJS", level: 55, color: "bg-emerald-500" },
         ],
     },
     {
@@ -51,10 +47,10 @@ export const skills_category = [
         icon: Server,
         description: "Có kinh nghiệm làm việc với các công nghệ backend phổ biến, xử lý logic nghiệp vụ, API và quản lý máy chủ.",
         skills: [
-            { name: "ASP.NET", level: 90, color: "bg-purple-700" },    
-            { name: "Node.js", level: 75, color: "bg-lime-600" },      
-            { name: "Express.js", level: 70, color: "bg-zinc-600" },    
-            { name: "RESTful API", level: 80, color: "bg-yellow-500" }, 
+            { name: "ASP.NET", level: 90, color: "bg-purple-700" },
+            { name: "Node.js", level: 75, color: "bg-lime-600" },
+            { name: "Express.js", level: 70, color: "bg-zinc-600" },
+            { name: "RESTful API", level: 80, color: "bg-yellow-500" },
         ],
     },
     {
@@ -62,10 +58,10 @@ export const skills_category = [
         icon: Cloud,
         description: "Hiểu biết cơ bản về các nền tảng đám mây và công cụ triển khai ứng dụng, CI/CD và quản lý tài nguyên cloud.",
         skills: [
-            { name: "Vercel", level: 80, color: "bg-neutral-900" },     
-            { name: "Netlify", level: 75, color: "bg-teal-500" },       
-            { name: "Github", level: 60, color: "bg-slate-700" },       
-            { name: "Docker", level: 40, color: "bg-blue-400" },        
+            { name: "Vercel", level: 80, color: "bg-neutral-900" },
+            { name: "Netlify", level: 75, color: "bg-teal-500" },
+            { name: "Github", level: 60, color: "bg-slate-700" },
+            { name: "Docker", level: 40, color: "bg-blue-400" },
         ],
     },
     {
@@ -73,9 +69,9 @@ export const skills_category = [
         icon: Database,
         description: "Làm việc với cơ sở dữ liệu quan hệ và phi quan hệ để lưu trữ, truy vấn và xử lý dữ liệu hiệu quả.",
         skills: [
-            { name: "SQL Server", level: 90, color: "bg-red-700" },     
-            { name: "MySQL", level: 85, color: "bg-blue-600" },         
-            { name: "MongoDB", level: 80, color: "bg-green-700" },      
+            { name: "SQL Server", level: 90, color: "bg-red-700" },
+            { name: "MySQL", level: 80, color: "bg-blue-600" },
+            { name: "MongoDB", level: 85, color: "bg-green-700" },
         ],
     }
 ];
@@ -102,7 +98,7 @@ export const tech_stack = [
 export const stats = [
     { number: "20", icon: Code2, label: "Dự án đã xây dựng" },
     { number: "9+", icon: Users, label: "Khách hàng hài lòng" },
-    { number: "10+", icon: Network, label: "Trang web trực tiếp" },
+    { number: "10", icon: Network, label: "Trang web trực tiếp" },
     { number: "95%", icon: Zap, label: "Điểm hiệu suất" },
 ];
 
@@ -114,7 +110,7 @@ export const projects = [
         description: "Website luyện thi TOEIC trực tuyến giúp người học ôn luyện hiệu quả với kho đề thi sát với đề thật. Hệ thống chấm điểm tự động, hiển thị đáp án và giải thích chi tiết từng câu hỏi. Người dùng có thể luyện tập theo từng kỹ năng, theo dõi tiến độ và đặt mục tiêu học tập cá nhân.",
         image: "",
         tags: ["React", "NodeJS", "MySQL", "JavaScript"],
-        liveUser: "#",
+        liveUser: "https://youtu.be/uTabA7DQzxQ?si=c86jrQ8THkSzsOgZ",
         githubUrl: "#",
         featured: false,
         category: "Web App",
@@ -125,7 +121,7 @@ export const projects = [
         description: "Website bán bánh kẹo trực tuyến cung cấp đa dạng các loại bánh ngọt, kẹo ngoại nhập và đặc sản vùng miền. Giao diện thân thiện, dễ sử dụng, hỗ trợ đặt hàng nhanh chóng. Chất lượng sản phẩm được đảm bảo, giao hàng tận nơi, thanh toán linh hoạt. Mang đến trải nghiệm mua sắm tiện lợi và ngọt ngào cho mọi khách hàng.",
         image: "",
         tags: ["React", "NodeJS", "MongoDB", "JavaScript"],
-        liveUser: "#",
+        liveUser: "https://youtu.be/-h7WUv1T3KM?si=IlfAhNA98QMdf0U2",
         githubUrl: "#",
         featured: false,
         category: "Web App",
@@ -279,5 +275,12 @@ export const social_link = [
         url: "#",
         color: "hover:text-green-400",
         bgColor: "hover:bg-green-500/10",
+    },
+    {
+        name: "Youtube",
+        icon: FaYoutube,
+        url: "https://www.youtube.com/@huyhoang3499",
+        color: "hover:text-red-500",
+        bgColor: "hover:bg-red-500/10",
     },
 ];
