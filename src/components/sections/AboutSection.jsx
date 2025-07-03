@@ -4,7 +4,7 @@ import { animate, motion, useInView, useScroll, useTransform } from 'framer-moti
 import { useTheme } from '../../context/ThemeContext';
 import { journey_steps, passions } from '../../utils/data';
 import { containerVariants, itemVariants, timelineVariants, stepVariants } from '../../utils/helper';
-import avt from "../../assets/images/image01.jpg";
+import signature from "../../assets/images/signature.png";
 
 const AboutSections = () => {
   const { isDarkMode } = useTheme();
@@ -60,7 +60,7 @@ const AboutSections = () => {
             className='text-3xl md:text-5xl font-light mb-6 capitalize '
           >
             <span className='text-blue-500 font-medium'> Sự phát triển </span>
-              không đến từ hoàn hảo, mà đến từ kiên trì
+            không đến từ hoàn hảo, mà đến từ kiên trì
           </motion.h2>
         </motion.div>
 
@@ -136,10 +136,10 @@ const AboutSections = () => {
 
               {/* About - Digital Signature ....*/}
               <div className='flex justify-center'>
-                <img src='' alt="Chữ ký" className='w-28' />
+                <img src={signature} alt="Chữ ký" className='w-28' />
               </div>
               <div className='text-lg font-medium text-blue-500 mt-2'>
-                Huy Hoàng
+                Lê Huy Hoàng
               </div>
             </motion.div>
 

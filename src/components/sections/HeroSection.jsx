@@ -5,7 +5,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
 
 import { useTheme } from "../../context/ThemeContext";
-import avt from "../../assets/images/image01.jpg";
+import avt from "../../assets/images/avt.jpg";
 import { containerVariants, itemVariants } from '../../utils/helper';
 
 const HeroSection = () => {

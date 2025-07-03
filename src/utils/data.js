@@ -26,8 +26,11 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
 
-import project_img_1 from "../assets/images/image01.jpg";
-
+import webtoeic from "../assets/images/WebToeic.png";
+import webcandy from "../assets/images/WebCandy.png";
+import webroom from "../assets/images/WebRoom.png";
+import webshoes from "../assets/images/WebShoes.png";
+import websecondhand from "../assets/images/WebSecondhand.png";
 
 // Skills
 export const skills_category = [
@@ -108,7 +111,7 @@ export const projects = [
         id: 1,
         title: "TOEIC Test Practice Website",
         description: "Website luyện thi TOEIC trực tuyến giúp người học ôn luyện hiệu quả với kho đề thi sát với đề thật. Hệ thống chấm điểm tự động, hiển thị đáp án và giải thích chi tiết từng câu hỏi. Người dùng có thể luyện tập theo từng kỹ năng, theo dõi tiến độ và đặt mục tiêu học tập cá nhân.",
-        image: "",
+        image: webtoeic,
         tags: ["React", "NodeJS", "MySQL", "JavaScript"],
         liveUser: "https://youtu.be/uTabA7DQzxQ?si=c86jrQ8THkSzsOgZ",
         githubUrl: "#",
@@ -119,7 +122,7 @@ export const projects = [
         id: 2,
         title: "Website Selling Candy",
         description: "Website bán bánh kẹo trực tuyến cung cấp đa dạng các loại bánh ngọt, kẹo ngoại nhập và đặc sản vùng miền. Giao diện thân thiện, dễ sử dụng, hỗ trợ đặt hàng nhanh chóng. Chất lượng sản phẩm được đảm bảo, giao hàng tận nơi, thanh toán linh hoạt. Mang đến trải nghiệm mua sắm tiện lợi và ngọt ngào cho mọi khách hàng.",
-        image: "",
+        image: webcandy,
         tags: ["React", "NodeJS", "MongoDB", "JavaScript"],
         liveUser: "https://youtu.be/-h7WUv1T3KM?si=IlfAhNA98QMdf0U2",
         githubUrl: "#",
@@ -130,7 +133,7 @@ export const projects = [
         id: 3,
         title: "Room Rental Website",
         description: "Website cho thuê phòng trọ, căn hộ, phòng ở ghép uy tín với thông tin rõ ràng, hình ảnh thực tế. Người dùng dễ dàng tìm kiếm phòng theo vị trí, giá, tiện nghi. Giao diện thân thiện, hỗ trợ đăng tin miễn phí và kết nối nhanh giữa người thuê và chủ phòng.",
-        image: "",
+        image: webroom,
         tags: ["React", "NodeJS", "MongoDB", "JavaScript"],
         liveUser: "#",
         githubUrl: "#",
@@ -141,7 +144,7 @@ export const projects = [
         id: 4,
         title: "Website Selling Shoes",
         description: "Website bán giày thời trang với nhiều mẫu mã đa dạng, từ giày thể thao, giày da đến giày sneaker cao cấp. Sản phẩm chính hãng, cập nhật xu hướng mới nhất, phù hợp mọi độ tuổi. Giao hàng nhanh chóng, đổi trả linh hoạt, mang đến trải nghiệm mua sắm tiện lợi và uy tín.",
-        image: "",
+        image: webshoes,
         tags: ["React", "NodeJS", "MongoDB", "JavaScript"],
         liveUser: "#",
         githubUrl: "#",
@@ -152,7 +155,7 @@ export const projects = [
         id: 5,
         title: "Second-hand Market Website",
         description: "Website chợ đồ cũ trực tuyến giúp kết nối người mua và bán các mặt hàng đã qua sử dụng như đồ điện tử, nội thất, quần áo, xe máy,... Giao diện dễ dùng, đăng tin nhanh chóng, hỗ trợ tìm kiếm theo khu vực. Giải pháp tiết kiệm chi phí và bảo vệ môi trường thông qua việc tái sử dụng đồ cũ.",
-        image: "",
+        image: websecondhand,
         tags: ["ASP.Net", "MVC", "C#", "SQLs"],
         liveUser: "#",
         githubUrl: "#",
