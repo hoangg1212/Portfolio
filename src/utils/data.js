@@ -236,17 +236,17 @@ export const contact_info = [
     {
         icon: MapPin,
         label: "Địa chỉ",
-        value: "HCM",
+        value: "Q.Bình Tân, Tp, Hồ Chí Minh",
     },
     {
         icon: Mail,
         label: "Email",
-        value: "....@gmail.com",
+        value: "huyhoang1212.cke@gmail.com",
     },
     {
         icon: Phone,
         label: "Phone",
-        value: "+84 123456789",
+        value: "+84 987784205",
     },
 ];
 
@@ -254,7 +254,7 @@ export const social_link = [
     {
         name: "Github",
         icon: FiGithub,
-        url: "#",
+        url: "https://github.com/hoangg1212",
         color: "hover:text-gray-400",
         bgColor: "hover:bg-gray-800",
     },
