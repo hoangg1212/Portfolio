@@ -9,6 +9,7 @@ import {
     Dribbble,
     Gamepad2,
     GraduationCap,
+    ClipboardList,
     Headphones,
     Heart,
     Mail,
@@ -26,11 +27,18 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
 
-import webtoeic from "../assets/images/WebToeic.png";
-import webcandy from "../assets/images/WebCandy.png";
-import webroom from "../assets/images/WebRoom.png";
-import webshoes from "../assets/images/WebShoes.png";
-import websecondhand from "../assets/images/WebSecondhand.png";
+import webtoeic from "../assets/images/01.png";
+import webcandy from "../assets/images/02.png";
+import webroom from "../assets/images/03.png";
+import webshoes from "../assets/images/04.png";
+import websecondhand from "../assets/images/05.png";
+import cli2per from "../assets/images/06.png";
+import visionTech1 from "../assets/images/07.png";
+import visionTech2 from "../assets/images/08.png";
+import taxidienlonghai from "../assets/images/09.png";
+import viettrekTravel from "../assets/images/10.png";
+import longkhanh from "../assets/images/11.png";
+import ngocduygrand from "../assets/images/12.png";
 
 // Skills
 export const skills_category = [
@@ -85,6 +93,7 @@ export const tech_stack = [
     "JavaScript",
     "ReactJS",
     "VueJS",
+    "Wordpress",
     "Tailwind CSS",
     "Bootstrap",
     "ASP.NET",
@@ -99,9 +108,9 @@ export const tech_stack = [
 ];
 
 export const stats = [
-    { number: "20", icon: Code2, label: "Dự án đã xây dựng" },
-    { number: "9+", icon: Users, label: "Khách hàng hài lòng" },
-    { number: "10", icon: Network, label: "Trang web trực tiếp" },
+    { number: "29", icon: Code2, label: "Dự án đã xây dựng" },
+    { number: "25+", icon: Users, label: "Khách hàng hài lòng" },
+    { number: "18", icon: Network, label: "Trang web trực tiếp" },
     { number: "95%", icon: Zap, label: "Điểm hiệu suất" },
 ];
 
@@ -116,7 +125,7 @@ export const projects = [
         liveUser: "https://youtu.be/uTabA7DQzxQ?si=c86jrQ8THkSzsOgZ",
         githubUrl: "#",
         featured: false,
-        category: "Web App",
+        category: "Website",
     },
     {
         id: 2,
@@ -127,7 +136,7 @@ export const projects = [
         liveUser: "https://youtu.be/-h7WUv1T3KM?si=IlfAhNA98QMdf0U2",
         githubUrl: "#",
         featured: false,
-        category: "Web App",
+        category: "Website",
     },
     {
         id: 3,
@@ -138,7 +147,7 @@ export const projects = [
         liveUser: "#",
         githubUrl: "#",
         featured: false,
-        category: "Web App",
+        category: "Website",
     },
     {
         id: 4,
@@ -149,7 +158,7 @@ export const projects = [
         liveUser: "#",
         githubUrl: "#",
         featured: false,
-        category: "Web App",
+        category: "Website",
     },
     {
         id: 5,
@@ -161,6 +170,83 @@ export const projects = [
         githubUrl: "#",
         featured: false,
         category: "Web App",
+    },
+    {
+        id: 6,
+        title: "Website Công ty Sự Kiện Cli2per",
+        description: "Website giới thiệu công ty sự kiện Cli2per với giao diện hiện đại, bố cục chuyên nghiệp, làm nổi bật dịch vụ tổ chức sự kiện, dự án đã triển khai và năng lực đội ngũ. Website được xây dựng trên nền tảng WordPress kết hợp PHP, dễ quản trị nội dung, tối ưu SEO và hiển thị tốt trên mọi thiết bị, giúp doanh nghiệp nâng cao hình ảnh thương hiệu và tiếp cận khách hàng hiệu quả.",
+        image: cli2per,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://cli2per.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+    {
+        id: 7,
+        title: "Website Công ty Công Nghệ VisionTech",
+        description: "Website doanh nghiệp công nghệ VisionTech được thiết kế theo phong cách hiện đại, tập trung giới thiệu giải pháp công nghệ, dịch vụ và thông tin công ty. Sử dụng WordPress & PHP, website đảm bảo tốc độ tải nhanh, dễ mở rộng, chuẩn SEO và thân thiện với người dùng, hỗ trợ VisionTech xây dựng uy tín và quảng bá thương hiệu trong lĩnh vực công nghệ.",
+        image: visionTech1,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://visionteco.com.vn/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+    {
+        id: 8,
+        title: "Website Công ty Công Nghệ VisionTech",
+        description: "Phiên bản website chính thức của VisionTech với giao diện chuyên nghiệp, nội dung rõ ràng, nhấn mạnh các sản phẩm – dịch vụ công nghệ và năng lực triển khai dự án. Website được phát triển bằng WordPress kết hợp PHP, tối ưu trải nghiệm người dùng, dễ dàng quản lý nội dung và phù hợp cho mục tiêu truyền thông, giới thiệu doanh nghiệp lâu dài.",
+        image: visionTech2,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://visionteco.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+    {
+        id: 9,
+        title: "Website Taxi Điện Long Hải",
+        description: "Website Taxi Điện Long Hải cung cấp thông tin dịch vụ taxi điện, đặt xe nhanh, giới thiệu đội xe và lợi ích di chuyển xanh. Giao diện thân thiện, dễ sử dụng, hiển thị tốt trên mobile. Website xây dựng bằng WordPress & PHP, tối ưu tốc độ, chuẩn SEO, hỗ trợ khách hàng tra cứu thông tin và liên hệ đặt xe thuận tiện 24/7.",
+        image: taxidienlonghai,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://taxidienlonghai.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+    {
+        id: 10,
+        title: "Website Tour Du Lịch Viettrek Travel",
+        description: "Website du lịch Viettrek Travel giới thiệu các tour du lịch trong và ngoài nước, lịch trình chi tiết, hình ảnh trực quan và thông tin đặt tour. Được xây dựng trên WordPress & PHP, website dễ quản trị, chuẩn SEO, tối ưu trải nghiệm người dùng, giúp doanh nghiệp quảng bá tour hiệu quả và tăng tỷ lệ chuyển đổi khách hàng.",
+        image: viettrekTravel,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://viettrektravel.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+    {
+        id: 11,
+        title: "Website Địa Điểm Du Lịch Long Khánh",
+        description: "Website tổng hợp và giới thiệu các địa điểm du lịch, ăn uống, vui chơi tại Long Khánh. Giao diện thân thiện, dễ tìm kiếm thông tin theo danh mục, phù hợp cho người dân và du khách. Phát triển bằng WordPress & PHP, website tối ưu SEO, hỗ trợ cập nhật nội dung nhanh chóng và mở rộng trong tương lai.",
+        image: longkhanh,
+        tags: ["Wordpress", "PHP"],
+        liveUser: "https://diadiemlongkhanh.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
+    },
+     {
+        id: 12,
+        title: "Landing Page NGOC DUY GRAND",
+        description: "Landing Page NGOC DUY GRAND được thiết kế nhằm giới thiệu dự án/địa điểm với giao diện sang trọng, bố cục tập trung vào chuyển đổi khách hàng. Xây dựng bằng Laravel & PHP, tối ưu tốc độ, bảo mật cao, chuẩn SEO và tương thích đa thiết bị, phù hợp cho chiến dịch quảng bá, thu thập khách hàng tiềm năng và nâng cao hình ảnh thương hiệu.",
+        image: ngocduygrand,
+        tags: ["Laravel", "PHP"],
+        liveUser: "https://ngocduygrand.com/",
+        githubUrl: "#",
+        featured: false,
+        category: "Website",
     },
 ];
 
@@ -228,6 +314,14 @@ export const journey_steps = [
         description: "Hoàn thành chương trình kỹ sư ngành Kỹ thuật phần mềm với xếp loại Giỏi. Trang bị vững chắc kiến thức nền tảng về lập trình, phát triển phần mềm và các kỹ năng làm việc nhóm, giải quyết vấn đề.",
         icon: GraduationCap,
         color: "bg-indigo-500",
+    },
+    {
+        year: "Hiện tại",
+        title: "Quản lý dự án",
+        company: "TinTech Group",
+        description: "Phụ trách quản lý và điều phối các dự án Website, App và phần mềm tại TinTech Group. Lập kế hoạch triển khai, theo dõi tiến độ, phối hợp đội ngũ kỹ thuật và làm việc trực tiếp với khách hàng nhằm đảm bảo dự án hoàn thành đúng yêu cầu, đúng thời hạn và đạt chất lượng cam kết.",
+        icon: ClipboardList,
+        color: "bg-indigo-500",
     }
 ];
 
@@ -246,7 +340,7 @@ export const contact_info = [
     {
         icon: Phone,
         label: "Phone",
-        value: "+84 987784205",
+        value: "0987 784 205",
     },
 ];
 
